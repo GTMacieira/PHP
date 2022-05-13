@@ -7,3 +7,7 @@ if ($idade >= 18) {
     echo 'Menor';
 }
     
+
+//operador ternário
+
+echo "<br/>".($idade>= 18) ? 'Maior' : 'Menor';
